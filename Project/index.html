@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="video-container" align="center">
+    <video id="camera_stream" width="500" autoplay></video>
+    <img id="snap" style="display: none;">
+    <canvas id="canvas" width=320 height=240 ></canvas>
+  </div>
+  <div id="outer">
+    <button id="start" class="btn1 extend">Open Camera</button>
+    <button id="capture" class="btn1">Capture</button>
+    <a href="#" id="download_photo" download="image.png" class="disabled" style="text-decoration:none">
+    <button class="btn1">Download</button>
+    </a>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
